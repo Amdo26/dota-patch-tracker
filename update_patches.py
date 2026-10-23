@@ -269,6 +269,14 @@ def main():
 TEMPLATE = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dota 2 Patch Tracker</title>
+<meta name="description" content="Every Dota 2 hero and item change, explained. Patch notes, buffs and nerfs, hero meta. Updated automatically.">
+<meta name="theme-color" content="#07080f">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Dota 2 Patch Tracker">
+<meta property="og:title" content="Dota 2 Patch Tracker"><meta property="og:description" content="Patch notes, buffs and nerfs, hero meta. Every hero and item change, explained.">
+<meta property="og:url" content="https://dotapatchwatch.vercel.app/"><meta property="og:image" content="https://dotapatchwatch.vercel.app/og-image.jpg"><meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Dota 2 Patch Tracker">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Dota 2 Patch Tracker"><meta name="twitter:image" content="https://dotapatchwatch.vercel.app/og-image.jpg">
 <style>
 :root{--bg:#07080f;--card:rgba(255,255,255,.045);--bd:rgba(140,170,255,.16);--tx:#e8ecf7;--mut:#98a2c0;--ac:#5B9DFF;--buff:#2fd18b;--nerf:#ff5a6a;--gold:#f2c14e;--adj:#b79cff}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:150px}
