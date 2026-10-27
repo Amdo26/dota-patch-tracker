@@ -24,6 +24,8 @@ jobs:
           python-version: "3.13"
 
       - name: Build the page
+        env:
+          STRATZ_TOKEN: ${{ secrets.STRATZ_TOKEN }}   # stored in GitHub Settings > Secrets, never in the repo
         run: python update_patches.py
 
       - name: Save changes (Vercel redeploys automatically)
